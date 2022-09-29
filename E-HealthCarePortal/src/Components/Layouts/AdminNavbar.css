@@ -1,0 +1,20 @@
+.title-block {
+    color: black;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.plan_block {
+    background-color: #16a085;
+    border-radius: 1rem;
+}	
+
+.adminNavbarText {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 35vh; 
+    width: 23vw; 
+}
+

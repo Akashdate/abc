@@ -1,0 +1,190 @@
+
+
+
+Today:(11:00 a.m.)
+1. Protect React Routes
+2. All users dashboard UI
+3. Optimistic Locking ..........not needed in our case
+- Back Button in all Flows
+- NavBar - checking in all Flows
+? More than one crossOrigin
+? @...security
+-------------------------
+
+Tmrw:(8:00 a.m.)
+1. Documentation
+2. TestCases(JUnit Test Cases)
+
+
+
+*From Tmrw timings: 8 a.m. to 2 p.m.*
+
+FrontEnd:
+======== 
+1. Patient Flow: ViewTreatment -> apply local storage on Link: treatment_id
+2. FrontPage -> Design... css, images - Feedback
+3. Validation
+4. Token -> JWT.....................................................DONE
+5. Image Handling
+
+BackEnd: 
+=======
+1. Spring Security - JWT - Bcrypt ..................................DONE
+2. Aspect(Logging, CCC), ...........................................DONE
+    Validation,.........................BACK END some done........ 
+    Exception Handling
+3. RazorPay (Transaction Id, Payment Status)........................DONE
+    Email Sending...................................................DONE
+4. Image Handling, 
+    Optimstic Locking
+5. Microservice(.net)
+6. Pagination
+7. Internationalization
+8. Video call Integration
+
+Documentation - ER Diagram, Screenshots ... from References - take one and edit...
+PPT - from References
+
+Validations:
+
+- Email Validations
+- ResourceNotFound 
+- UserNameNotFound 
+
+
+200 OK
+201 Created - (post), (put)
+202 Accepted
+400 Bad Request - login
+401 Unauthorized - 
+402 Payment Required 
+403 Forbidden - authorization failed (login)
+404 Not Found - resource not found(get)
+405 Method Not Allowed - (delete)
+408 Request Timeout - (delay)
+
+
+ 200 OK
+
+
+
+ 201 Created
+
+
+
+
+202 Accepted
+
+
+
+203 Non-Authoritative Information
+
+
+
+ 204 No Content
+
+
+
+
+
+205 Reset Content
+
+
+206 Partial Content
+
+
+
+
+
+
+207 Multi-Status (WebDAV)
+
+
+208 Already Reported (WebDAV)
+
+
+226 IM Used
+
+
+
+
+
+
+406 Not Acceptable
+
+407 Proxy Authentication Required
+
+
+
+
+
+ 409 Conflict
+
+
+
+
+410 Gone
+
+
+
+411 Length Required
+
+
+412 Precondition Failed
+
+
+413 Request Entity Too Large
+
+
+
+414 Request-URI Too Long
+
+
+415 Unsupported Media Type
+
+
+416 Requested Range Not Satisfiable
+417 Expectation Failed
+418 I'm a teapot (RFC 2324)
+
+420 Enhance Your Calm (Twitter)
+
+422 Unprocessable Entity (WebDAV)
+
+
+423 Locked (WebDAV)
+
+
+424 Failed Dependency (WebDAV)
+
+
+425 Reserved for WebDAV
+
+
+426 Upgrade Required
+428 Precondition Required
+429 Too Many Requests
+431 Request Header Fields Too Large
+444 No Response (Nginx)
+449 Retry With (Microsoft)
+450 Blocked by Windows Parental Controls (Microsoft)
+451 Unavailable For Legal Reasons
+499 Client Closed Request (Nginx)
+
+ 
+5xx Server Error
+
+ 500 Internal Server Error
+501 Not Implemented
+502 Bad Gateway
+503 Service Unavailable
+504 Gateway Timeout
+505 HTTP Version Not Supported
+506 Variant Also Negotiates (Experimental)
+507 Insufficient Storage (WebDAV)
+508 Loop Detected (WebDAV)
+509 Bandwidth Limit Exceeded (Apache)
+510 Not Extended
+511 Network Authentication Required
+598 Network read timeout error
+599 Network connect timeout erro

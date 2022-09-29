@@ -1,0 +1,4 @@
+.overlay::before {
+    left: -1rem !important;
+    top: 0;
+}

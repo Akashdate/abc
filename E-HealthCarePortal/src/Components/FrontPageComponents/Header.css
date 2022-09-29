@@ -1,0 +1,20 @@
+#nav_bar{
+    padding: 0px ;
+}
+.nav_name{
+    margin : 0px 10px;
+    font-size: larger;
+}
+
+@media print {
+    .noprint {
+       visibility: hidden;   
+    }
+ }
+ .header{
+    position: relative;
+        height: 5rem;
+ }
+
+
+ 

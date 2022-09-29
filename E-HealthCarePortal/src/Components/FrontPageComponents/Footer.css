@@ -1,0 +1,22 @@
+
+footer{
+    width: 100%;
+    margin-top: auto;
+}
+
+#footer_text{
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.textbottom{
+    color:rgb(251, 255, 0);
+    font-size: larger;
+    font-weight: 500px; 
+}
+
+@media print {
+    .noprint {
+       visibility: hidden;
+    }
+ }

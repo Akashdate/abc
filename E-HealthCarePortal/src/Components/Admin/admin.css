@@ -1,0 +1,11 @@
+
+.footer{
+    width: 100%;
+    margin-top: auto;
+}
+
+.adminhome{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}

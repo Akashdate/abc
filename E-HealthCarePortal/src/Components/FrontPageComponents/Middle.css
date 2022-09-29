@@ -1,0 +1,8 @@
+.imageFormatting{
+    width: 150rem;
+    height: 20rem;
+}
+.carousel {
+    position: absolute;
+    padding: 0px !important;
+} 
